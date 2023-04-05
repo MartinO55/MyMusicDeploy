@@ -5,3 +5,5 @@ this is a react website I through together to display some of the AI generated a
 It's built in react and SASS.
 
 this is a Cloned Repo I set Up to make the site deployable - The original Repo can be found here, along with the actual commit log: <https://github.com/MartinO55/MyMusic/tree/main/myMusic>
+
+So I had some major issues getting this to deploy with github pages; because the front end triggers MIME type sniffing issues in browsers and the backend is inaccessable.
