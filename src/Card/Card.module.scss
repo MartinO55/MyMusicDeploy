@@ -1,0 +1,51 @@
+.Card {
+  margin: 2.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 9.74rem;
+
+  //leaving this in because I love the shape of the card appearing on mouse over, even though it interferes with other elements
+  // &:hover {
+  //   background-color: rgb(255, 0, 0);
+  // }
+}
+
+.albumCover {
+  height: 13rem;
+  animation-duration: 1s;
+  animation-name: flipBack;
+
+  &:hover {
+    transform: rotateZ(1deg);
+    box-shadow: 0rem 0rem 2rem black;
+    cursor: pointer;
+  }
+  @keyframes flipBack {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+}
+
+.albumCoverFlipped {
+  height: 13rem;
+  animation-duration: 1s;
+  animation-name: flipOver;
+  animation-fill-mode: forwards;
+  &:hover {
+    box-shadow: 0rem 0rem 2rem black;
+    cursor: pointer;
+  }
+
+  @keyframes flipOver {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+  }
+}
