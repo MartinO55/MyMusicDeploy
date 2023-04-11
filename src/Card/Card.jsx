@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import AlbumDetails from "../AlbumDetails/AlbumDetails";
+import AlbumDetails from "../AlbumDetails/AlbumDetails.jsx";
 import styles from "./Card.module.scss";
 
 const Card = ({ title, band, coverImgLink, description }) => {

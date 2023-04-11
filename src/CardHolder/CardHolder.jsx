@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../Card/Card";
+import Card from "../Card/Card.jsx";
 import Albums from "../assets/Albums/Albums.json";
 import styles from "./CardHolder.module.scss";
 

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import CardHolder from "./CardHolder/CardHolder";
-import Footer from "./Footer/Footer";
-import Header from "./Header/Header";
+import CardHolder from "./CardHolder/CardHolder.jsx";
+import Footer from "./Footer/Footer.jsx";
+import Header from "./Header/Header.jsx";
 
 function App() {
   return (
